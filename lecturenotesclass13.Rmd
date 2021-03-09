@@ -354,10 +354,10 @@ Consider the mice radiation dataset. Suppose we want to compute a 95% confidence
 
 First, identify the following:
 
-- Population: 
-- Parameter of interest:
-- Sample:
-- Sample size:
+- Population: mice not on treatment
+- Parameter of interest: proportion
+- Sample: mice not on treatment
+- Sample size: 522
 
 ```{r boot_mice}
 boot_prop <- mice %>% 
@@ -374,6 +374,8 @@ ci_mice_died
 ```
 
 What does this mean?
+We are 95% confident that the true proportion of mice that died while not on
+treatment is between 69 and 79.3%.
 
 **Interpretation**:
 
