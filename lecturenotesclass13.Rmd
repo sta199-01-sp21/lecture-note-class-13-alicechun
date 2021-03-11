@@ -405,7 +405,8 @@ ci_mice_live
 Visualizing our Results:
 
 ```{r practice_2_visualize}
-
+visualize(boot_prop_live) + 
+  shade_ci(ci_mice_live)
 ```
 
 
