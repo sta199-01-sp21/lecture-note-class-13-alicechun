@@ -411,7 +411,8 @@ visualize(boot_prop_live) +
 
 
 Give an interpretation of your result.
-
+We can be 90% confident that the proportion of mice that survive while on
+radiation treatment is captured by the interval (0.54, 0.66).
 
 # References
 
